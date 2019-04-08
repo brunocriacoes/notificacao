@@ -45,7 +45,7 @@ function play()
                 notificacao = x[0];
                 document.querySelector('#popup').click();
                 document.querySelector('#numero_notificacoes').innerHTML =  x.length - 1;
-                document.querySelector('#play').src = 'uploads/' + x[0].mensagem;
+                document.querySelector('#play').src = 'uploads/musica.mp3';
                 clearInterval(intervalo);
                 status( x[0].id );        
             }
