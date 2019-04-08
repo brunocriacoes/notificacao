@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Notificação</title>
+	<link rel="stylesheet" href="disc/css/style.css">
+	<link rel="stylesheet" href="disc/css/mobile.css" media="(max-width: 760px)">
+</head>
+<body>
+	notificações:<span id="numero_notificacoes"></span> <br>
+	<button onclick="add()">Criar Notificação</button>
+
+	<input type="checkbox" id="popup" hidden>
+	<div id="pop-box">
+		<div>
+			<label for="popup" onclick="play();redireciona();">fechar</label> <br>
+			<audio src="" onload="alert('ok')" id="play" controls autoplay></audio> 
+		</div>
+	</div>
+	<script src="disc/js/functions.js"></script>
+	<script src="disc/js/main.js"></script>
+</body>
+</html>
